@@ -44,7 +44,7 @@ const Quickview = () => {
             </div>
             <div>
                 <h3>Lorem</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, eveniet aut magnam qui officiis excepturi quia ab non voluptatibus ad reiciendis quasi veniam vero impedit maiores aperiam placeat. Possimus, officiis.</p>
+                <p>Lorem ipsum dolor,hhhh sit amet consectetur adipisicing elit. Quos, eveniet aut magnam qui officiis excepturi quia ab non voluptatibus ad reiciendis quasi veniam vero impedit maiores aperiam placeat. Possimus, officiis.</p>
                 <button className='buttons'>View</button>
             </div>
         </div>
