@@ -1,0 +1,319 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+    font-family:  Arial, sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:15px 8%;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.nav-bar header{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-bar ul{
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.nav-bar ul li{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 10px;
+    color: inherit;
+}
+
+a.active{
+    color: red;
+    transition: 1s ease-in;
+}
+
+.nav-bar button{
+    background: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+
+/* Login Page */
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px;
+    margin-top: 100px;
+}
+
+.login-div{
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    padding: 30px 50px;
+}
+
+.login-container .login-div h5{
+    font-size: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+.login-container .login-div input{
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 1.2em;
+    width: 100%;
+    outline: none;
+}
+
+.login-div .login-button{
+    width: 100%;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.login-div .login-button:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+}
+
+/* Sign In */
+
+.signin-container header{
+    font-size: 2em;
+    text-align: center;
+}
+
+.signin-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-container{
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.signin-container input{
+    padding: 10px 20px;
+    margin: 10px 0 10px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 1.2em;
+    width: 100%;
+    outline: none;
+}
+
+.signin-container .sign-button{
+    background: black;
+    color: white;
+    /* font-weight: bold; */
+    border-radius: 10px;
+    font-size: 1.1em;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.signin-container .sign-button:hover{
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
+
+.home-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home-div h1{
+    font-size: 5em;
+    color: #000000;
+}
+
+.home-div-header{
+    color: white;
+}
+
+.home-div button{
+    background: black;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.home-div button:hover{
+    cursor: pointer;
+    background: hsla(0, 0%, 0%, 0.712);
+}
+
+/* Dashboard Style */
+
+.dashboard-container{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+.dashboard-container h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-container div{
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+    padding: 5px 10px;
+    background: blue;
+    border: 0;
+    color: white;
+    border-radius: 4px;
+}
+
+.buttons:hover{
+    background: hwb(240 0% 0% / 0.685);
+    cursor: pointer;
+}
+
+.school-of-business{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    gap: 20px;
+    color: black;
+    margin-top: 50px;
+}
+
+.school-of-business div{
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.school-of-business div article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.school-of-business article button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.footer-sch-of-business{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.application-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px;
+    margin-top: 80px;
+}
+
+.application-form .application-form-header{
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+    color: #3d86da;
+    font-weight: bold;
+}
+
+.application-form-body{
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.appInput{
+    padding: 10px 20px;
+    border: 2px solid #3d86da;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+    outline: none;
+}
+
+.radio-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.app-btn{
+    background: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.app-btn:hover{
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
